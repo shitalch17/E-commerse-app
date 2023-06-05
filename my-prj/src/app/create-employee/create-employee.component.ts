@@ -13,6 +13,7 @@ export class CreateEmployeeComponent implements OnInit {
   constructor(private service:EmployeeService,private router:Router) { }
 
   ngOnInit(): void {
+    console.log("Emp-create list component");
   }
  saveEmployee()
  {
